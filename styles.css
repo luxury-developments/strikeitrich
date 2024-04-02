@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Default styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* horizontally center content */
+    align-items: center; /* vertically center content */
+    height: 80vh; /* set height of body to viewport height */
+    font-family: 'Arial', sans-serif; /* specify the font-family */
+}
+
+.container {
+    text-align: center; /* center-align content within container */
+}
+
+h3 {
+    margin-top: -100px; /* adjust top margin for text */
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    body {
+        height: auto; /* Change height to auto for smaller screens */
+    }
+    h3 {
+        margin-top: -50px; /* Adjust top margin for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    /* Adjustments for even smaller screens */
+    body {
+        padding: 10px; /* Add padding for smaller screens */
+    }
+    h3 {
+        margin-top: -20px; /* Further adjust top margin for smaller screens */
+    }
+}
