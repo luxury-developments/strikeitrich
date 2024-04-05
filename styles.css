@@ -9,7 +9,7 @@ body {
     align-items: center; /* vertically center content */
     height: 80vh; /* set height of body to viewport height */
     font-family: 'Arial', sans-serif; /* specify the font-family */
-    background-color: #202c3c; /* Change background color to black */
+    background-color: #202c3c; /* Change background color to dark blue */
 }
 
 .container {
